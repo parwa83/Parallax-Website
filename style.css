@@ -1,0 +1,97 @@
+html,
+body{
+    height: 100px;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: blanchedalmond;
+}
+.IMG{
+    background-image:url("/Users/apple/Desktop/PLACEMENT/Projects/Website_Dhoni/images/start.jpg");
+    min-height:1000%;
+}
+.IMG2{
+    background-image:url("/Users/apple/Desktop/PLACEMENT/Projects/Website_Dhoni/images/2B367BD2-3CF9-4F85-8D6E-368440FBD825.jpeg");
+    min-height: 800px;
+}
+.IMG3{
+    background-image:url("/Users/apple/Desktop/PLACEMENT/Projects/Website_Dhoni/images/young.jpeg");
+    min-height: 800px;
+}
+.IMG4{
+    background-image:url("/Users/apple/Desktop/PLACEMENT/Projects/Website_Dhoni/images/career.jpg");
+    min-height: 800px;
+}
+.IMG5{
+    background-image:url("/Users/apple/Desktop/PLACEMENT/Projects/Website_Dhoni/images/A2B244F5-004A-43A8-8FA0-CECD28117A35.jpeg");
+    min-height: 800px;
+
+}
+
+
+.SEC{
+    background-image:url("/Users/apple/Desktop/PLACEMENT/Projects/Website_Dhoni/images/3AB2859C-9A21-46DF-84DF-D00A14E8E5BE.jpeg");
+    min-height :100%;
+}
+
+
+.IMG,.IMG2,.IMG3,.IMG4,.IMG5{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;         /* text color */
+  font-size: 70px;      /* adjust size as needed */
+  font-weight: bold;
+  text-align: center;
+}
+.textbg{
+    background-color:hotpink;
+    color:black;
+    padding: auto;
+    margin: 5px;
+}
+
+.SEC{
+    padding: 50px 50px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
+.gallery-section {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.gallery .img {
+  width: 250px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.gallery .img:hover {
+  transform: scale(1.05);
+}
